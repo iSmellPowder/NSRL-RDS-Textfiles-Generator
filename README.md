@@ -1,4 +1,4 @@
-# NSRL-RDS-Textfiles-Generator
+# RDSv3 to RDS 2.XX Format Text Files
 Python script to generate the RDS v2 format text files given a RDS v3 database file
 
 This entire script is just a python translation of the instructions given [here](https://s3.amazonaws.com/rds.nsrl.nist.gov/RDS/RDSv3_Docs/RDSv3_to_RDSv2_text_files.pdf).
