@@ -13,7 +13,8 @@ This entire script is just a python translation of the instructions given [here]
 2. Python3 
 
 ## Usage
-- Change `PRAGMA cache_size = ` in `generate_NSRLFile()` to a maximum of 50% of your total RAM (e.g. 32GB RAM, use only 16GB)
+- **IMPORTANT** Change `PRAGMA cache_size = ` in `generate_NSRLFile()` to a **maximum** of 50% of your total RAM (e.g. 32GB RAM, use only 16GB)
+  - Your computer may crash if you do not change this
   - The other `PRAGMA cache_size = ` in the code you can leave it as it is
   
 - `python NSRLv3_Textfiles_Generator.py` and follow on screen instructions
